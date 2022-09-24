@@ -1,0 +1,277 @@
+[
+  {
+    "description": "As a user\nI want to login into application",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 290998087
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638328949
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the login form with valid credentials",
+            "match": {
+              "location": "step-definitions\\login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546354873
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the home page",
+            "match": {
+              "location": "step-definitions\\login.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5808574
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94920442
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288823514
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1427855289
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with invalid 'tes1' and 'password1' and click on login button",
+            "match": {
+              "location": "step-definitions\\login.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2668848
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "error 'Epic sadface: Username and password do not match any user in this service' should be displayed",
+            "match": {
+              "location": "step-definitions\\login.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218996650
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57744996
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247742706
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1640367636
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with invalid 'test2' and 'password123' and click on login button",
+            "match": {
+              "location": "step-definitions\\login.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1994349
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "error 'Epic sadface: Username and password do not match any user in this service' should be displayed",
+            "match": {
+              "location": "step-definitions\\login.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237952823
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42792713
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 330687612
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1523875541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I fill the login form with invalid 'test3' and 'password3' and click on login button",
+            "match": {
+              "location": "step-definitions\\login.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1920864
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "error 'Epic sadface: Username and password do not match any user in this service' should be displayed",
+            "match": {
+              "location": "step-definitions\\login.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185425648
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44426207
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
